@@ -31,6 +31,7 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
+
 h4{
     padding-right: 700px;
     font-size:15px ;
@@ -47,9 +48,7 @@ h4{
 }
 
 .cabeceraderecha{
-    
-    position: absolute;
-    padding-left: 850px;
+    padding-left:  610px;
 }  
 
 .barraNavegacion{
@@ -74,10 +73,18 @@ h4{
     padding-top: 12px;
 }
 .descuentos{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 430px;
+    background-size: 1024px;
+    background-image: url(../img/bowl-and-pet-daities-on-green-bacground.jpg) ;
+}
+.mensajes{
+    position:relative;
+    top: 150px;
+    left: 650px;
     width: 400px;
-
-    text-align: center;
-    
 }
 .mensaje1{
     background-color: white;
@@ -85,7 +92,8 @@ h4{
     padding:10px;
 }
 .mensaje2{
-    padding:10px;
+    padding:20px;
+    width: 400px;
 }
 .boton{
     padding:10px;
