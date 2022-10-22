@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background-color:white; 
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+}
+figure{
+    text-align:center;
+}
+
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    width: 993px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h4{
+    padding-right: 700px;
+    font-size:15px ;
+}
+
+#idioma{
+    color:white;
+    background-color: black;
+}
+
+#moneda{
+    color:white;
+    background-color: black;
+}
+
+.cabeceraderecha{
+    
+    position: absolute;
+    padding-left: 850px;
+}  
+
+.barraNavegacion{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 50px;
+    background-color: #F0A83E;
+}
+.vinculos{
+    text-decoration: none;
+    color: white;
+    padding:6px;
+}
+.menus{
+    padding-left: 400px;
+    padding-top: 15px;
+}
+.logo{
+    padding-top: 12px;
+}
+.descuentos{
+    width: 400px;
+
+    text-align: center;
+    
+}
+.mensaje1{
+    background-color: white;
+    font-size:25px;
+    padding:10px;
+}
+.mensaje2{
+    padding:10px;
+}
+.boton{
+    padding:10px;
+    background-color: #F0A83E;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.buton{
+    outline:none;
+}
+.menu {
+    float: right;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.MenuCentralLink{
+    text-align: center;
+    text-decoration: none;
+}
+.vinculo{
+    text-decoration: none;
+    color:#666666;
+    padding:15px;
+}
+
+.producto{
+    margin: 30px;
+    background-color: #FBFAF6;
+    color: #3C2313;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.precio{
+    color: #F0A83E;
+    
+}
